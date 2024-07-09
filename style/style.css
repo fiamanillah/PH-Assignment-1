@@ -1,1 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0D1321;
+    font-family: 'azeret mono';
+}
+
+body{
+    font-family: 'azeret mono';
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav h1{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+nav button{
+    background: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.hero-section{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.hero-content .hero-img{
+    width: 240px;
+}
+
+.hero-content .hero-title{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero-content .hero-description{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero-content button{
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: #0D1321;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
