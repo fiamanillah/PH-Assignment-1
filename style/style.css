@@ -180,6 +180,10 @@ nav button{
     text-align: center;
 }
 
+.target-text h2{
+    margin-bottom: 20px;
+}
+
 .current-target-cards{
     display: flex;
     justify-content: space-between;
@@ -214,9 +218,47 @@ nav button{
 
 .js-card{
     background: #ffdd0010;
-<<<<<<< HEAD
 }
 
-=======
+.next-target-section{
+    width: 80%;
+    margin: auto;
 }
->>>>>>> 2407c15ff111fe6a44884f9427c9de8b31a24b05
+
+.next-target-text{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.next-target-text h2{
+    margin-bottom: 20px;
+}
+
+.next-target-item{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #0d13213c;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .next-target-item .target-img{
+    width: 20%;
+} */
+
+.next-target-item .target-img img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+.next-target-item .target-details{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
