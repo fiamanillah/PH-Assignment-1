@@ -9,6 +9,11 @@
     font-family: 'azeret mono';
 }
 
+html{
+    scroll-behavior: smooth;
+
+}
+
 body{
     font-family: 'azeret mono';
     max-width: 1440px;
@@ -261,4 +266,53 @@ nav button{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+
+.support-section{
+    width: 80%;
+    margin: 100px auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) , url(../assets/handshake.jpg) center no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.support-section .support-text{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.support-text h2{
+    color: #ffff;
+    margin-bottom: 10px;
+}
+.support-text p{
+    color: #ffffffb1;
+}
+.support-form{
+    margin-top: 20px;
+}
+.support-form input{
+    border: 1px solid #0d132140;
+    outline: none;
+    border-radius: 5px;
+    background: #ffff;
+    padding: 15px 25px;
+    font-size: 16px;
+
+}
+
+.support-form input[type=text]{
+    width: 500px;
+    font-weight: 300;
+}
+.support-form input[type=button]{
+    font-weight: 600;
+    cursor: pointer;
 }
