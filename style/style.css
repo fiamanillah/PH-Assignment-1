@@ -316,3 +316,22 @@ nav button{
     font-weight: 600;
     cursor: pointer;
 }
+
+
+footer{
+    background: #0d13210d;
+}
+
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-text h3{
+    font-size: 20px;
+    color: #0D1321;
+}
